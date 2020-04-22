@@ -16,6 +16,7 @@ There are three exercises here.
   closure();
   ```
   Currently requires nightly. The answer is in [fn-trait.rs](./fn-trait.rs). Use `rustc +nightly fn-trait.rs` to build
+
 - Return a closure from a function and count a number of invocations
   ```rust
   let mut closure_1 = get_closure(); // create a closure
@@ -26,6 +27,7 @@ There are three exercises here.
   println!("{}", closure_2()); // 1
   ```
   The answer is in [simple-capture.rs](simple-capture.rs)
+
 - Return a closure which will hold a shared resource
   ```rust
   let data = Rc::new(RefCell::new(Data { value: 0 }));

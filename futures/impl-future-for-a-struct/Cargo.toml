@@ -1,0 +1,9 @@
+[package]
+name = "impl-future-for-a-struct"
+version = "0.1.0"
+authors = ["ibaryshnikov <baryshnikov.il@gmail.com>"]
+edition = "2018"
+
+[dependencies.tokio]
+version = "0.2.18"
+features = ["macros"]
