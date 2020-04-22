@@ -15,7 +15,7 @@ impl Future for Data {
 
 #[tokio::main]
 async fn main() {
-    let data = Data { value: 5 };
+    let data = Data { value: 42 };
     let answer = data.await;
     println!("The answer is {}", answer);
 }
